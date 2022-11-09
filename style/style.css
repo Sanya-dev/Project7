@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+.header-wrapper{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon:not(:last-child){
+    margin-right: 55px;
+}
+.intro{
+    background: #4FBFA5;
+    padding: 25px 0 60px;
+}
+.intro-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    color: white;
+}
+.nav-link:last-child{
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+}
+.intro-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.intro-text{
+    width: 30%;
+    font-style: italic;
+}
+.intro-img{
+    width: 60%;
+}
+.intro-title{
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro-descr{
+    font-size: 14px;
+    margin: 40px 0;
+}
+.intro-btn{
+    padding: 15px 25px;
+    background: #00868A;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.proposition{
+    padding: 146px 0 129px 0;
+}
+.proposition-title{
+    text-align: center;
+    font-size: 48px;
+    color: #00868A;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+.proposition-wrapper{
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 70px;
+}
+.proposition-card{
+    width: 25%;
+    margin-right: 20px;
+}
+.proposition-card-img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.proposition-card-descr{
+    background-color: #00868A;
+    padding: 25px 10px;
+    color: white;
+    font-size: 21px;
+    font-style: italic;
+    position: relative;
+}
+.proposition-card-descr p{
+    width: 68%;
+}
+.proposition-card-descr:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background: white;
+    right: 40px;
+    top: 35px;
+}
+.proposition-card-descr::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 36px;
+    right: 39px;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    transform: translateY(-45%) rotate(45deg);
+
+}

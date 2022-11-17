@@ -1,5 +1,38 @@
 @media(max-width: 511px){
-    .header-wrapper{
-        width: 80%;
-}
+    .wrapper{
+            width: 80%;
+    }
+    .intro-img{
+        display: none;
+    }
+    .intro-text{
+        width: 100%;
+    }
+    .intro-nav{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .nav-link{
+        margin: 14px;
+        
+    }
+    .nav-link:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    .proposition{
+        padding: 70px 45px;
+    }
+    .proposition-title{
+        text-align: left;
+    }
+    .proposition-wrapper{
+        width: 100%;
+        display: block;
+        padding-top: 50px;
+    }
+    .proposition-card{
+        width: 100%;
+        margin-bottom: 28px;
+    }
 }

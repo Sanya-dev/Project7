@@ -52,6 +52,9 @@
 .intro-img{
     width: 60%;
 }
+.intro-img img{
+    width: 100%;
+}
 .intro-title{
     font-weight: 400;
     font-size: 48px;
@@ -90,43 +93,33 @@
 .proposition-card{
     width: 25%;
     margin-right: 20px;
+    position: relative;
 }
 .proposition-card-img{
     width: 100%;
-    margin-bottom: -5px;
+    display: block;
 }
 
 .proposition-card-descr{
+    display: flex;
+    justify-content: space-between;
     background-color: #00868A;
-    padding: 25px 10px;
+    padding: 25px 25px;
     color: white;
     font-size: 21px;
     font-style: italic;
-    position: relative;
 }
 .proposition-card-descr p{
-    width: 68%;
+    width: 65%;
 }
-.proposition-card-descr:after{
-    content: '';
-    display: block;
+.proposition-card-new{
+    background: #4FBFA5;
+    color: azure;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 10px 15px;
     position: absolute;
-    height: 3px;
-    width: 40px;
-    background: white;
-    right: 40px;
-    top: 35px;
-}
-.proposition-card-descr::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 36px;
-    right: 39px;
-    width: 10px;
-    height: 10px;
-    border-top: 3px solid white;
-    border-right: 3px solid white;
-    transform: translateY(-45%) rotate(45deg);
-
+    top: 30px;
+    left: 30px;
 }
